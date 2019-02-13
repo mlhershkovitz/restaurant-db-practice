@@ -1,0 +1,27 @@
+{
+  "name": "restaurant-db-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlhershkovitz/restaurant-db-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlhershkovitz/restaurant-db-practice/issues"
+  },
+  "homepage": "https://github.com/mlhershkovitz/restaurant-db-practice#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "express": "^4.16.4",
+    "node": "^11.9.0",
+    "parser": "^0.1.4",
+    "pg": "^7.8.0"
+  }
+}
