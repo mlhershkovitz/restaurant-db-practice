@@ -9,6 +9,24 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css">
     <script src="vendors/jquery-3.3.1.min.js"></script>
     <script src="scripts/client.js"></script>
+
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
 </head>
 
 <body>
@@ -16,11 +34,24 @@
     <div>
         <input type="text" id="nameIn" placeholder="name">
         <input type="text" id="typeIn" placeholder="type">
+        <input type="text" id="ratingIn" placeholder="rating">
         <button id="submitButton">Submit</button>
     </div>
 
     <div class="table">
-
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Rating</th>
+                    <th>Save</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="viewRestaurants">
+            </tbody>
+        </table>
     </div>
 </body>
 
